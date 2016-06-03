@@ -1,10 +1,11 @@
 source 'https://rubygems.org'
 
+# Adding user authentication
+gem 'devise', '>= 3.2.4'
 # Twitter Bootstrap
 gem 'bootstrap-sass', '~> 3.3.5.1'
 gem 'sprockets', '2.11.0'
 gem 'sass-rails'
-
 # see https://github.com/heroku/rails_12factor
 gem 'rails_12factor', group: :production
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
